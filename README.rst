@@ -1,7 +1,7 @@
 ExpandTabsOnSave-SublimeText
 ============================
 
-SublimeText plugin to convert tabs indentation to spaces
+SublimeText plugin to convert tabs indentation to spaces, or vice versa depending on your indentation settings.
 
 This is actually packaged version of `Paulo Rodrigez <https://coderwall.com/p/zvyg7a>`_'s plugin
 
@@ -20,14 +20,14 @@ You can enable the plugin for a given project by pasting the following into the 
 ::
 
     "settings": {
-        "expand_tabs_on_save": true
+        "convert_tabspaces_on_save": true
     }
 
 If instead you wish to enable it globally, use your Settings file (Preferences -> Settings - User):
 
 ::
 
-    "expand_tabs_on_save": true
+    "convert_tabspaces_on_save": true
 
 
 License
