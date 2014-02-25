@@ -6,7 +6,7 @@ import sublime_plugin
 
 
 class ExpandTabsOnSave(sublime_plugin.EventListener):
-    """Expant tabs on file save."""
+    """Expand tabs / spaces on file save."""
 
     def on_pre_save(self, view):
         """Run ST's 'expand_tabs' command when saving a file."""
