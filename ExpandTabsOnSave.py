@@ -12,8 +12,8 @@ class ExpandTabsOnSave(sublime_plugin.EventListener):
         """Run ST's 'expand_tabs' command when saving a file."""
         if view.settings().get('convert_tabspaces_on_save') == 1:
             if view.settings().get('translate_tabs_to_spaces') == 1:
-                view.window().run_command('expand_tabs')
+                view.run_command('expand_tabs')
             else:
-                view.window().run_command('unexpand_tabs')
+                view.run_command('unexpand_tabs')
             
 
