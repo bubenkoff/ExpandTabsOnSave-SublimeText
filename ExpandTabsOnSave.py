@@ -1,7 +1,4 @@
 """ExpandTabsOnSave SublimeText plugin."""
-import os
-
-import sublime
 import sublime_plugin
 
 
